@@ -124,6 +124,42 @@ a {
     opacity: 0.5;
 }
 
+.donation{
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 0px 80px 0px 80px;
+    gap:25px;
+}
+.donation-card{
+    flex: 1;
+    padding: 32px 0px 32px 0px;
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.7;
+    border: 2px solid #b3b3ae;
+    border-radius: 10px;
+
+}
+.donation-card:hover{
+    background-color: #c6e4d6;
+    cursor: pointer;
+}
+.dnt{
+    text-align: center;
+    padding: 0px 80px 0px 80px;
+}
+#donation-input{
+    border: none; 
+    padding: 20px;
+    border-bottom: 2px solid #bebebe;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+    width: 96.5%;
+
+}
 .news{
     display: flex;
     gap: 24px;
@@ -146,7 +182,7 @@ a {
 #vertical-line{
     width: 1077px;
     height: 1px;
-    background-color: #0e0e0e;
+    background-color: #bebebe;
     margin: auto;
 }
 #foot{
