@@ -20,6 +20,8 @@
 }
 .btn{
     padding: 15px 30px 15px 30px;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     color: #006A50;
@@ -29,17 +31,20 @@
 }
 .btn:hover{
     color:blue;
-    font-family: "Fira Sans", serif;
-    font-style: normal;
     border: 2px solid blue;
-    background-color: aquamarine;
+    background-color: #c6e4d6;
 }
 .banner{
     background-color: #c6e4d6;
     margin: auto;
     width: 80%;
-    padding: 60px 0px 60px 0px;
+    padding: 50px 60px 50px 60px;
     border-radius: 20px;
+    display: flex;
+}
+.bnr{
+    flex: auto;
+    
 }
 #vertical-line{
     width: 1077px;
@@ -54,10 +59,11 @@
 }
 
 /* Font Family*/
+
 /* .font-normal {
   font-family: "Fira Sans", serif;
-  /* font-weight: 100; */
-  /* font-style: normal;
+  font-weight: 100;
+  font-style: normal;
 } 
 */ 
 h1, h2, h3, h4, h5, h6 {
