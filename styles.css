@@ -64,9 +64,15 @@ a {
 }
 .card{
     flex: 1;
+    position: relative;
     padding: 20px;
     border: 2px solid #b3b3ae;
     border-radius: 15px;
+}
+.card a{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 .card h4{
     font-size: 16px;
@@ -117,6 +123,26 @@ a {
     word-spacing: 2px;
     opacity: 0.5;
 }
+
+.news{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.news-section{
+    display: flex;
+    padding: 48px;
+    gap: 23px;
+}
+.news-part{
+    position: relative;
+    flex:auto;
+}
+.news-part a{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
 #vertical-line{
     width: 1077px;
     height: 1px;
@@ -137,6 +163,7 @@ a {
   font-style: normal;
 } 
 */ 
+
 h1, h2, h3, h4, h5, h6, p {
     font-family: "Fira Sans", serif;
     /* font-weight: 100; */
@@ -147,3 +174,36 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: "Fira Sans", serif;
   font-style: italic;
 }
+table {
+    margin: 32px;
+    width: 100%; 
+    border-collapse: collapse;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+}
+
+th, select {
+    background-color: #c6e4d6;
+    color: #000000; 
+    text-align: left;
+    vertical-align: middle; 
+    padding: 20px 20px; 
+    border: none; 
+}
+select{
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #b3b3ae;
+}
+
+tr {
+    border: 1px solid #b3b3ae; 
+}
+
