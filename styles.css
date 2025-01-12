@@ -34,6 +34,17 @@
     border: 2px solid blue;
     background-color: #c6e4d6;
 }
+a {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
 .banner{
     background-color: #c6e4d6;
     margin: auto;
@@ -70,6 +81,42 @@
     font-weight: 700;
     opacity: 0.7;
 }
+.card2{
+    padding: 30px;
+}
+.card2:first-child{
+    background-color: #dde9fd;
+}
+.card2:nth-child(2){
+    background-color: #c6e4d6;
+}
+.card2:nth-child(3){
+    background-color: #f7ebcf;
+}
+.quote{
+    border: 2px solid #b3b3ae;
+    border-radius: 15px;
+    padding: 20px;
+    /* position:relative */
+}
+.quote h4{
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+.quote-text{
+    /* position:absolute;
+    position: relative; */
+    margin-top: -40px;
+    /* top:35%; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.8px;
+    word-spacing: 2px;
+    opacity: 0.5;
+}
 #vertical-line{
     width: 1077px;
     height: 1px;
@@ -90,7 +137,7 @@
   font-style: normal;
 } 
 */ 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     font-family: "Fira Sans", serif;
     /* font-weight: 100; */
     font-style: normal;
