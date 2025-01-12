@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    background-color: #f5f5f5;
+}
+.navbar {
+    flex:auto;
+    padding: 24px 24px;
+}
+.navbar:first-child {
+    padding: 36.5px 36.5px;
+    padding-left: 10%;
+}
+.navbar:nth-child(2){
+    padding-right: 10%; 
+    text-align: end;
+}
+.btn{
+    padding: 15px 30px 15px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+    border: 2px solid #006A50;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:blue;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    border: 2px solid blue;
+    background-color: aquamarine;
+}
+.banner{
+    background-color: #c6e4d6;
+    margin: auto;
+    width: 80%;
+    padding: 60px 0px 60px 0px;
+    border-radius: 20px;
+}
+#vertical-line{
+    width: 1077px;
+    height: 1px;
+    background-color: #0e0e0e;
+    margin: auto;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Font Family*/
+/* .font-normal {
+  font-family: "Fira Sans", serif;
+  /* font-weight: 100; */
+  /* font-style: normal;
+} 
+*/ 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fira Sans", serif;
+    /* font-weight: 100; */
+    font-style: normal;
+  }
+
+.italic {
+  font-family: "Fira Sans", serif;
+  font-style: italic;
+}
